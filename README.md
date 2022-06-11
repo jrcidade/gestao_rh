@@ -1,2 +1,2 @@
 # gestao_rh
-Desenvolvimento avançado Django 2.0
+Desenvolvimento avançado Django 5.0
