@@ -4,5 +4,3 @@ from .models import Funcionario
 
 class FuncionariosList(ListView):
     model = Funcionario
-
-
