@@ -1,5 +1,6 @@
-from django.shortcuts import HttpResponse
+from django.views.generic import ListView
+from .models import Funcionario
 
 
-def home(request):
-    return HttpResponse('Olá jonecy')
+class FuncionariosList(ListView):
+    model = Funcionario
